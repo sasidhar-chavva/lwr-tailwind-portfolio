@@ -9,6 +9,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
@@ -20,7 +21,9 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : { },
+              "attributes" : {
+                "dxpStyle" : { }
+              },
               "definition" : "c:portfolioHomePage",
               "id" : "01de0c17-ae71-4b6e-aa58-3f579b29d843",
               "type" : "component"
@@ -43,6 +46,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Home",
             "recordId" : "{!recordId}"
           },

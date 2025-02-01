@@ -1,3 +1,35 @@
 img {
-    width: 50%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    font-size: 24px;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.about-me-content {
+    text-align : center;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .sections {
+        float: left;
+         width: 50%;
+    }
+
+    .about-me-content {
+        margin-top: 15%;
+    }
 }
