@@ -5,6 +5,7 @@
 #user added
 **/reports/
 **/reportTypes/
+**/dashboards/
 
 # Salesforce cache
 .sf/
